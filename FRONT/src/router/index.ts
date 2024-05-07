@@ -8,6 +8,7 @@ import ProductoPage from '@/views/ProductoPage.vue';
 import CiudadPage from '@/views/CiudadPage.vue';
 import PaisPage from '@/views/PaisPage.vue';
 import DepartamentoPage from '@/views/DepartamentoPage.vue';
+import ProveedorPage from '@/views/ProveedorPage.vue';
 
 
 const routes: Array<RouteRecordRaw> = [
@@ -53,6 +54,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/ciudad',
     name: 'Ciudad',
     component: CiudadPage
+  },
+  {
+    path: '/proveedor',
+    name: 'Proveedor',
+    component: ProveedorPage
   }
 ]
 

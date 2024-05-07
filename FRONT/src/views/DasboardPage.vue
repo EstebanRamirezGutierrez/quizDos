@@ -18,6 +18,8 @@
         <strong><a href="/departamento">Ir a departamento</a></strong>
         <br>
         <strong><a href="/ciudad">Ir a ciudad</a></strong>
+        <br>
+        <strong><a href="/proveedor">Ir a Proveedor</a></strong>
 
       </div>
 

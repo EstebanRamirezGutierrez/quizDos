@@ -8,8 +8,8 @@
   
       <div id="login-container">
         <div id="login-form" class="login-form">
-          <strong>¡Bienvenido al carrito de compras!</strong>
-          <p>Que bueno tenerte de regreso</p>
+          <strong>¡Bienvenido a MOTORACER!</strong>
+          <p>¡Bienvenido</p>
           <InputComponent v-model="user" id="user" name="user" label="Usuario: " placeholder="Introduce tu usuario" />
           <InputComponent v-model="password" type="password" id="password" name="password" label="Contraseña: " placeholder="Introduce tu contraseña" />
         </div>
