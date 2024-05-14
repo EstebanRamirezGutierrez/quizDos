@@ -39,7 +39,7 @@ import Swal from 'sweetalert2';
 
 
 // Rutas de la API
-const baseURL = 'http://localhost:8080/shopping_car/api/cliente';
+const baseURL = 'http://localhost:9000/shopping_car/api/cliente';
 
 // Métodos para interactuar con la API
 // Obtener todos los registros

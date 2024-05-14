@@ -8,14 +8,15 @@
       <ion-content>       
         <div id="login-container">  
           <div id="login-form">
-            <InputComponent id="id" name="id" type="hidden"/>
-            <InputComponent id="codigo" name="codigo" label="Código dane: " />
-            <InputComponent id="nombre" name="nombre" label="Nombre: " />
+            
+            <ConcatComponent />
+            <CrudButtonComponent />
+            
           </div>
   
           <div> 
              <!--Traer el componente de los botones de la crud  -->
-            <CrudButtonComponent />
+            
           </div>         
         </div>
       </ion-content>
@@ -24,6 +25,7 @@
   
   <script setup lang="ts">
   import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';
+  import ConcatComponent from '@/components/ConcatComponent.vue';
   import ButtonComponent from '@/components/ButtonComponent.vue';
   import InputComponent from '@/components/InputComponent.vue';
   import CrudButtonComponent from '@/components/CrudButtonComponent.vue';

@@ -8,9 +8,8 @@
       <ion-content>       
         <div id="login-container">  
           <div id="login-form">
-            <InputComponent id="id" name="id" type="hidden"/>
-            <InputComponent id="codigo" name="codigo" label="Código dane: " />
-            <InputComponent id="nombre" name="nombre" label="Nombre: " />
+            <ConcatComponent />
+
           </div>
   
           <div> 
@@ -27,6 +26,7 @@
   import ButtonComponent from '@/components/ButtonComponent.vue';
   import InputComponent from '@/components/InputComponent.vue';
   import CrudButtonComponent from '@/components/CrudButtonComponent.vue';
+  import ConcatComponent from '@/components/ConcatComponent.vue';
   </script>
   
   <style scoped src="../theme/container.css"></style>

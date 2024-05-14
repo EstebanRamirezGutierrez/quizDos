@@ -29,7 +29,7 @@
   import CrudButtonComponent from '@/components/CrudButtonComponent.vue';
   import axios from 'axios';
 // Rutas de la API
-const baseURL = 'http://localhost:8100/shopping_car/api/proveedor';
+const baseURL = 'http://localhost:9000/shopping-car/api/proveedor';
 
 // Métodos para interactuar con la API
 // Obtener todos los registros
